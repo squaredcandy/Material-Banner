@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialBannerView">
+        <attr name="contextText" format="string|reference" />
+        <attr name="positiveButtonText" format="string|reference" />
+        <attr name="negativeButtonText" format="string|reference" />
+        <attr name="icon" format="reference" />
+    </declare-styleable>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+    </style>
+</resources>
