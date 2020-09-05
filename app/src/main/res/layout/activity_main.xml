@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.squaredcandy.materialbanner.MaterialBannerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contextText="You have lost connection to the internet. This app is offline"
+        app:icon="@drawable/ic_wifi_off"
+        app:negativeButtonText="Dismiss"
+        app:positiveButtonText="Reconnect" />
+</LinearLayout>
