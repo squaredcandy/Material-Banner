@@ -14,10 +14,10 @@
 
         <ImageView
             android:id="@+id/banner_icon"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
+            android:layout_width="@dimen/banner_icon_size"
+            android:layout_height="@dimen/banner_icon_size"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="24dp"
             android:layout_marginBottom="16dp"
             android:background="@drawable/circle_primary"
             android:contentDescription="@string/image_content_description"
@@ -31,7 +31,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="12dp"
             android:textAppearance="?textAppearanceBody2"
             tools:text="You have lost connection to the internet. This app is offline" />
     </LinearLayout>
@@ -40,19 +40,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        app:flexDirection="row_reverse"
         app:flexWrap="wrap">
-
-        <Button
-            android:id="@+id/banner_button_positive"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:layout_marginStart="16dp"
-            tools:text="Positive Button" />
 
         <Button
             android:id="@+id/banner_button_negative"
@@ -60,8 +50,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="8dp"
             tools:text="Negative Button" />
+
+        <Button
+            android:id="@+id/banner_button_positive"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="8dp"
+            tools:text="Positive Button" />
     </com.google.android.flexbox.FlexboxLayout>
 
     <View
